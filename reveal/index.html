@@ -39,6 +39,252 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
+## CMSimde 協同產品設計
+
+### KMOLab
+
+<small>
+Created by [KMOLab](http://lab.kmol.info/)
+</small>
+
+[CMSimfly 網誌](./../blog/index.html)
+
+    </script>
+</section>			
+<section>
+<section data-markdown>
+    <script type="text/template">
+Week1
+
+建立個人倉儲cd2020及進行網站編譯
+
+1.下載2019Fall可攜套件.7z ，完成後開啟。
+2.登入個人github帳號，創建新的倉儲cd2020。
+3.進入要存放資料夾tmp。
+4.輸入git clone 
+5.輸入git submodule add 
+6.將up_dir的所有項目複製到cd2020。
+7.完成後，python wsgi.py 開始編輯倉儲(login密碼為admin)。
+8.編輯完成後，git status > git add . > git commit -m > git push
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 2
+
+登入個人的github，fork老師的倉儲。
+
+重建一個個人python系統
+
+進入Python官網下載
+
+下載SciTE系統
+
+建立新的start.bat及stop.bat
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 3
+
+1.隨機分組
+(1)random.shuffle的語法
+
+random.shuffle（x，随機）使用方法
+
+2.抽點名
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 4
+
+完成翻譯作業
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 5
+
+清明節放假
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 6
+
+完成四輪車
+1.首先點選Add->Primitive shape->Cuboid 建立四輪車的本體，給定尺寸並將車身拉高。
+2.接著點選Add->Primitive shape->Cylinder 建立四輪車的輪胎，給定尺寸並調整其方向及位置。
+3.再來點選Add->Joint->Relvoute 新增馬達給予輪胎動力，調整其方向及位置。
+4.接著調整馬達轉動的速率20並將結構設置好。
+5.檢查本體的碰撞設置是否正確。
+6.複製其輪胎並將位置及結構設置好。
+7.開始進行模擬測試。
+8.將四輪車的前輪馬達重新命名為right_motor及left_motor。
+9.接著將寫好的子程式加入車體。
+10.進行測試以鍵盤控制四輪車，即完成。
+    </script>
+</section>
+
+
+						
+</section>
+
+
+						
+<section>
+<section data-markdown>
+    <script type="text/template">
+Week 8
+
+V-rep更新版本
+
+1.進入CoppliaSim 官方網站:https://www.coppeliarobotics.com/
+
+2.進入download 中下載教育版
+
+3.下載CoppeliaSim Edu Binaries可攜版本
+
+4.完成上述步驟即可刪除原本的V rep.
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 9
+
+期中考線上課程
+
+1.藉由行事曆建立 Google Handout Meet 
+
+2.開放live至少10分鐘，進行個人操作，且錄製。
+
+3.將錄製檔存於個人 Google Drive 中的期中簡報 mp4 影片，並共享給@gm之所有用戶
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 10
+
+作業三:
+根據對Topic2和Topic3的閱讀，使用CoppeliaSim、Webots、Onshape提出一個機電一體化項目。
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 11
+
+ssh to github
+將SSH密鑰複製到剪貼板。
+
+如果您的SSH密鑰文件的名稱與示例代碼的名稱不同，請修改文件名以匹配當前設置。複製密鑰時，請勿添加任何換行符或空格。
+
+ 2.在任何頁面的右上角，點擊您的個人資料照片，然後點擊設置。
+
+ 3.在用戶設置邊欄中，點擊SSH和GPG密鑰。
+
+ 4.單擊“ 新建SSH密鑰”或“ 添加SSH密鑰”。
+
+ 5.在“標題”字段中，為新密鑰添加一個描述性標籤。例如，如果您使用的是個人Mac，   則可以將此鍵稱為“個人MacBook Air”。
+
+ 6.將您的密鑰粘貼到“密鑰”字段中。
+
+ 7.單擊添加SSH密鑰。
+
+ 8.如果出現提示，請確認GitHub Enterprise密碼。
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 12
+
+IPV4 Ubuntu 對外連線
+新增整體系統阜號，主機網路為NAT Network。
+按下啟動，密碼 kmol2020，開啟 LXTermmial。
+輸入ifconfig -> sudo apt install net-tools，密碼 kmol2020。
+輸入ping 127.0.0.1測試，然後進入cd2020pj1->git pull。
+輸入sudo vi wsgi.py編輯內容，按 i 編輯，近端的host 改為10.0.2.4。
+按下esc後，輸入"wq" 儲存，開啟cd2020pj1.leo，在nav中搜尋"allowExt"。
+新增 ttt檔，然後在tmp下sudo vi oauth_scrum.txt中輸入內容
+輸入python3 wsgi.py 去啟動遠端。
+前往網站https:/127.0.0.0.1.1.8443/alogin。
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+Week 13
+
+IPv6 遠端控制設定
+
+操作步驟:
+1.從老師倉儲下的downloads打開w13_ipv6_assignment.txt，內有ipv6遠端控制說明。
+2.依照說明設定，設定IPv6網路。
+3.點選IPv6內容，IPv6位址輸入2001:288:6004:17:2020:1::7121
+4.子網路首碼長度輸入64、預設匝道輸入2001:288:6006:17::254。
+5.接著開啟虛擬主機，設定整體系統埠號，將主機IP改為個人IP。
+6.啟動Ubuntu輸入密碼kmol2020。
+7.開啟LXTermial，並進入cd2020pj1。
+8.git pull檢查有無新版本，cd docs/cmsimde。
+9.輸入vi wsgi.py，將host改為個人主機IP(按i編輯，按Esc輸入:wq存儲)。
+10.在另一台主機開啟putty，輸入預連線主機IP。
+11.設定SSH下的X11(Enable X11 fowarding打勾並在X display location中輸入localhost:0.0)。
+12.設定完成後存儲，在打開即可連線該主機。
+    </script>
+</section>
+
+
+						
+</section>
+
+
+						
+<section>
+<section data-markdown>
+    <script type="text/template">
+Week 18
+
+期末報告
+    </script>
+</section>
+
+
+						
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
 ## CMSimfly 網際內容管理
 
 ### KMOLab
