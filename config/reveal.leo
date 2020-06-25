@@ -399,10 +399,10 @@ vertical: body pane on the botton</t>
 建立新的start.bat及stop.bat</t>
 <t tx="leo.20200625155803.2">## CMSimde 協同產品設計
 
-### KMOLab
+### 蔡朝旭
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623121](http://lab.kmol.info/)
 &lt;/small&gt;
 
 [CMSimfly 網誌](./../blog/index.html)
